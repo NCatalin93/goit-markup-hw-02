@@ -63,6 +63,10 @@ body {
     color: var(--highlighting-color);
 }
 
+#current {
+    color: var(--highlighting-color);
+}
+
 /* Sub-section adress */
 .contact-adress {
     font-weight: 500;
@@ -101,6 +105,7 @@ body {
     border: none;
     cursor: pointer;
     font-family: inherit;
+    font-weight: var(--titles-font-weight);
 }
 
 .request-button:hover {
@@ -126,6 +131,7 @@ body {
     font-size: 36px;
     line-height: 3.01357;
     text-align: center;
+    font-weight: var(--titles-font-weight);
 }
 /* Team members sub-section */
 .team-members {
@@ -136,6 +142,7 @@ body {
     font-size: 36px;
     line-height: 3.01357;
     text-align: center;
+    font-weight: var(--titles-font-weight);
 }
 
 .team-members h3 {
@@ -223,6 +230,7 @@ body {
     font-size: 18px;
     font-weight: var(--titles-font-weight);
     line-height: 2.57143;
+    font-weight: var(--titles-font-weight);
 }
 
 .portfolio-page p {
